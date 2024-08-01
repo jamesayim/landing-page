@@ -1,0 +1,318 @@
+/* EVERY ELEMENT DEFAULT SETTING */
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* THE BODY */
+body {
+    font-family: 'Roboto', sans-serif;
+    text-rendering: optimizeLegibility;
+    max-width: 100%;
+}
+
+/* ALL ANCHOR TAGS */
+a.all {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+/* TARGETS ONLY ANCHOR OF HEADER LOGO */
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/* NAVIGATION BAR IN NAV SECTION */
+.nav-container {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+
+/* ENTIRE HEADER CONTAINER */
+header {
+    color: #f9faf8;
+}
+
+/* ONLY HEADER LOGO */
+.header-logo {
+    align-items: center;
+    justify-content: start;
+    padding-left: 9rem;
+    background-color: #1f2937;
+    width: 100%;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+/* NAV LISTS IN NAV CONTAINER */
+.nav-list {
+    display: flex;
+    color: #e5e7eb;
+    list-style-type: none;
+    font-weight: lighter;
+    justify-content: flex-end;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 0.1px;
+    padding-right: 9rem;
+}
+
+/* UNORDERED LISTS IN HEADER SECTION */
+ul {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    padding-top: 1px;
+    font-size: 16px;
+}
+/* BASIC TEXT STYLES FOR EVERY CHILD IN HERO SECTION */
+.hero {
+    background-color: #1f2937;
+    display: flex;
+    padding-bottom: 230px;
+}
+
+/* HERO TITLE IN HERO SECTION */
+.hero h1 {
+    font-size: 52px;
+    font-weight: 900;
+    color: #f9faf8;
+    width: 60%;
+    padding-right: 10rem;
+    padding-left: 10rem;
+    padding-top: 4.5rem;
+    position: relative;
+}
+
+/* P TAG (SUBTEXT) IN HERO SECTION */
+.hero .hero-subtitle {
+    color: #e5e7eb;
+    font-size: 18px;
+    position: absolute;
+    top: 17rem;
+    left: 10rem;
+    width: 30%;
+}
+
+/* CALL-TO-ACTION IN HERO SECTION */
+.hero .hero-cta-button {
+    position: absolute;
+    background-color: #3882f6;
+    color: white;
+    top: 22.3rem;
+    left: 10rem;
+    border: 1px solid transparent;
+    padding: 5px 20px;
+    cursor: pointer;
+    border-radius: 0.55rem;
+    width: 8rem;
+    height: 2.3rem;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+/* IMAGE WITH TEXT */
+.hero div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
+    height: 250px;
+    width: 500px;
+    background-color: #727880;
+    position: absolute;
+    top: 9rem;
+    left: 43.3rem;
+    font-size: 1.1rem;
+}
+
+/* 2ND SECTION CONTAINER */
+.second-section {
+    background-color: white;
+    color: #1f2937;
+    padding-top: 35px;
+    padding-bottom: 100px;
+    max-width: 100%;
+    margin: 0;
+}
+
+/* TITLE IN 2ND SECTION */
+.second-section > h2 {
+    display: flex;
+    font-size: 36px;
+    font-weight: 900;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: fit-content;
+    margin-top: 0.1px;
+}
+
+.second-section {
+    width: 100%;
+}
+
+/* BOX CONTAINER IN 2ND SECOND*/
+.boxes {
+    width: 750px;
+    height: 260px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+/* BOXES IN BOX CONTAINER */
+.box {
+    border: 4px solid #3882f6;
+    width: 150px;
+    height: 150px;
+    border-radius: 1.2rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* TEXTS CONTAINER */
+.texts {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    width: 770px;
+    padding-right: 0;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 0;
+    max-width: fit-content;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 25px;
+    text-align: center;
+    padding-top: 0;
+    font-size: smaller;
+}
+
+/* TEXTS SOLELY */
+.texts div {
+    width: 200px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* SUBTEXTS UNDERNEATH BOXES */
+.ss-subtext {
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+
+}
+/* SECTION 3 CONTAINER */
+.section3 {
+    background-color:#e5e7eb;
+    display: flex;
+    font-size: 34.5px;
+    font-family: 'Roboto', sans-serif;
+    color: #1f2937;
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+/* AUTHOR OF QUOTE */
+span {
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    top: 330px;
+    left: 745px;
+}
+
+/* STYLING THE PARAGRAPH IN SECTION 3 */
+.section3 div > p {
+    font-weight: 100;
+    font-style: italic;
+}
+/* THE ENTIRE DIV CONTAINER IN SECTION 3 */
+.section3 > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 800px;
+    height: 400px;
+}
+/* SECTION 4 CONTAINER */
+.section4 {
+    display: flex;
+    padding: 95px 0 95px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+/* THE DIV IN THE SECTION 4 */
+.container4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 8.5px;
+    width: 1000px;
+    height: 150px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 20px;
+    text-align: center;
+    flex-direction: column;
+}
+/* ITEMS WITHIN THE DIV IN SECTION 3 */
+.container4 h4, .container4 p, .container4 button {
+    margin: 0;
+}
+
+/* ONLY BUTTON IN SECTION 4 */
+.container4 button {
+    border: 2px solid white;
+    width: 8rem;
+    height: 2.3rem;
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: 400;
+    border-radius: 0.55rem;
+    cursor: pointer;
+    margin: 0;
+    position: absolute;
+    left: 900px;
+}
+
+/* ONLY h4 title & p text IN SECTION 4 */
+.section4 h4 {
+    width: fit-content;
+    position: absolute;
+    left: 325px;
+    top: 156px;
+    font-weight: bold;
+}
+.section4 p {
+    width: fit-content;
+    position: absolute;
+    top: 174px;
+    left: 325px;
+}
+
+/* FOOTER SECTION */
+footer {
+    padding: 40px;
+    margin: 0;
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
