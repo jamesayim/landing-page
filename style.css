@@ -43,7 +43,7 @@ header {
 .header-logo {
     align-items: center;
     justify-content: start;
-    padding-left: 144px;
+    padding-left: 10%;
     background-color: #1f2937;
     width: 100%;
     font-size: 24px;
@@ -59,25 +59,25 @@ header {
     justify-content: flex-end;
     width: 100%;
     align-items: center;
-    margin-bottom: 0.1px;
-    padding-right: 9rem;
+    margin-bottom: 0.9%;
+    padding-right: 10%;
 }
 
 /* UNORDERED LISTS IN HEADER SECTION */
 ul {
     display: flex;
-    gap: 20px;
+    gap: 2%;
     justify-content: space-around;
-    padding-top: 1px;
+    padding-top: 0.4%;
     font-size: 16px;
 }
 /* BASIC TEXT STYLES FOR EVERY CHILD IN HERO SECTION */
 .hero {
     background-color: #1f2937;
     display: flex;
-    padding-bottom: 230px;
-    padding-top: 120px;
-    padding-left: 100px;
+    padding-bottom: 38vh;
+    padding-top: 18vh;
+    padding-left: 6.5vw;
 }
 
 /* HERO TITLE IN HERO SECTION */
@@ -85,12 +85,13 @@ ul {
     font-size: 52px;
     font-weight: 900;
     color: #f9faf8;
-    width: 60%;
-    padding-right: 10rem;
-    padding-left: 64px;
-    padding-top: 48px;
+    width: 65%;
+    min-width: 30%;
+    padding-right: 20%;
+    padding-left: 6.4%;
+    padding-top: 5%;
     position: relative;
-    line-height: 45px;
+    line-height: 85%;
 }
 
 /* P TAG (SUBTEXT) IN HERO SECTION */
@@ -99,9 +100,10 @@ ul {
     font-size: 16px;
     position: absolute;
     padding-left: 6px;
-    top: 17rem;
-    left: 161px;
+    top: 45vh;
+    left: 12vw;
     width: 30%;
+    min-width: 20vw;
 }
 
 /* CALL-TO-ACTION IN HERO SECTION */
@@ -129,16 +131,16 @@ ul {
     justify-content: center;
     align-items: center;
     color: #e5e7eb;
-    height: 235px;
-    width: 500px;
-    padding-right: 80px;
-    padding-left: 80px;
+    height: 40%;
+    width: 38%;
+    padding-right: 8%;
+    padding-left: 8%;
     background-color: #727880;
     position: absolute;
-    top: 161px;
-    left: 43.3rem;
+    top: 25%;
+    left: 50%;
     font-size: 1.1rem;
-    padding-right: 100px; 
+    padding-right: 10%;
     border-radius: 10px;
 }
 
@@ -146,8 +148,8 @@ ul {
 .second-section {
     background-color: white;
     color: #1f2937;
-    padding-top: 35px;
-    padding-bottom: 100px;
+    padding-top: 10vh;
+    padding-bottom: 10%;
     max-width: 100%;
     margin: 0;
 }
@@ -161,7 +163,6 @@ ul {
     align-items: center;
     margin: 0 auto;
     width: fit-content;
-    margin-top: 0.1px;
 }
 
 .second-section {
@@ -170,8 +171,9 @@ ul {
 
 /* BOX CONTAINER IN 2ND SECOND*/
 .boxes {
-    width: 750px;
-    height: 260px;
+    width: 55%;
+    height: 10%;
+    gap: 5%;
     justify-content: center;
     align-items: center;
     justify-content: space-between;
@@ -183,10 +185,10 @@ ul {
 /* BOXES IN BOX CONTAINER */
 .box {
     border: 4px solid #3882f6;
-    width: 150px;
-    height: 150px;
+    width: 30vw;
+    height: 25vh;
     border-radius: 1.2rem;
-    margin-top: 0;
+    margin-top: 3%;
     margin-bottom: 0;
 }
 
@@ -196,24 +198,21 @@ ul {
     flex-direction: row;
     justify-content: center;
     margin: 0 auto;
-    width: 770px;
+    width: 56.6%;
     padding-right: 0;
     padding-left: 0;
-    margin-top: 0;
     margin-bottom: 0;
-    height: 0;
     max-width: fit-content;
     align-items: center;
-    justify-content: space-evenly;
-    gap: 25px;
+    justify-content: space-between;
+    gap: 3%;
     text-align: center;
-    padding-top: 0;
-    font-size: smaller;
+    padding-top: 1%;
 }
 
 /* TEXTS SOLELY */
 .texts div {
-    width: 200px;
+    width: 100%;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -232,16 +231,16 @@ ul {
     font-family: 'Roboto', sans-serif;
     color: #1f2937;
     position: relative;
-    padding-top: 50px;
-    padding-bottom: 60px;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
 }
 /* AUTHOR OF QUOTE */
 span {
     font-size: 28px;
     font-weight: bold;
     position: absolute;
-    top: 330px;
-    left: 745px;
+    top: 70%;
+    left: 58%;
 }
 
 /* STYLING THE PARAGRAPH IN SECTION 3 */
@@ -256,8 +255,9 @@ span {
     align-items: center;
     margin: 0 auto;
     padding: 0 auto;
-    width: 800px;
-    height: 400px;
+    width: 60%;
+    height: 60vh;
+    text-align: justify;
 }
 /* SECTION 4 CONTAINER */
 .section4 {
@@ -289,8 +289,8 @@ span {
 /* ONLY BUTTON IN SECTION 4 */
 .container4 button {
     border: 2px solid white;
-    width: 8rem;
-    height: 2.3rem;
+    width: 10%;
+    height: 10%;
     background-color: #3882f6;
     color: #f9faf8;
     font-weight: 400;
@@ -298,22 +298,22 @@ span {
     cursor: pointer;
     margin: 0;
     position: absolute;
-    left: 900px;
+    left: 65%;
 }
 
 /* ONLY h4 title & p text IN SECTION 4 */
 .section4 h4 {
     width: fit-content;
     position: absolute;
-    left: 325px;
-    top: 156px;
+    left: 24%;
+    top: 45%;
     font-weight: bold;
 }
 .section4 p {
     width: fit-content;
     position: absolute;
-    top: 174px;
-    left: 325px;
+    top: 50%;
+    left: 24%;
 }
 
 /* FOOTER SECTION */
@@ -325,4 +325,5 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    text-align: center;
 }
